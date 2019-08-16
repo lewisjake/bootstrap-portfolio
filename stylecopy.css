@@ -105,7 +105,10 @@ label {
     font-size: 1.4em;
     color: dimgray;
 }
-
+.Submit-button {
+    width: 100px;
+    float: right;
+}
 #pic1 {
 height: 250px;
 width: 210px;

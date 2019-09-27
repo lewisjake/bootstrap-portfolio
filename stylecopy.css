@@ -4,7 +4,7 @@ nav {
 body {
     margin-top: 8px;
     margin-bottom: 250px;
-    background-color: orange;
+    background-image: url(water.jpg);
 }
 #bio-image {
     float: left;
@@ -18,8 +18,8 @@ p {
 }
 #name_button {
     border: 10px;
-    color: darkgray;
-    background: dimgray;
+    color: black;
+    background-image: url(water.jpg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 28px;
     text-decoration: none;
@@ -56,7 +56,7 @@ nav a {
     width: 100%;
     padding: 30px;
     margin: 0 0 40px;
-    background: teal;
+    background-image: url(water.jpg);
     border: 1px solid black;
 
 }
@@ -64,44 +64,43 @@ footer {
     padding: 30px 0;
     clear: both;
     font-size: 24px;
-    color: darkgray;
+    color: black;
     text-align: center;
-    background: dimgray;
     height: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #contact-form {
-	width: 600px;
-	margin-top: 100px;
+    width: 600px;
+    margin-top: 100px;
 }
 #contact-form input, #contact-form textarea {
-	padding: 5px;
-	width: 471px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    width: 471px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.4em;
     font: dimgray;
     color: dimgray;
-	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
+    margin: 0px 0px 10px 0px;
+    border: 2px solid #ccc;
 }
 #contact-form textarea {
-	height: 90px;
+    height: 90px;
 }
 
 #contact-form textarea:focus, #contact-form input:focus {
-	border: 2px solid #900;
+    border: 2px solid #900;
 }
 
 #contact-form input.submit-button {
-	width: 100px;
-	float: right;
+    width: 100px;
+    float: right;
 }
 label {
-	float: left;
-	text-align: right;
-	margin-right: 15px;
-	width: 100px;
-	padding-top: 5px;
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
     font-size: 1.4em;
     color: dimgray;
 }

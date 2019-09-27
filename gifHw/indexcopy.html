@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <title>GifTastic Videogames</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>GifTastic</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="videogame-buttons">
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <form id="form">
+                    <label for="videogame-input">Add a Videogame</label><br>
+                    <input type="text" id="videogame-input">
+                    <input id="add-videogame" type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div id="videogames"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

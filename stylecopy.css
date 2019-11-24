@@ -108,7 +108,11 @@ label {
     width: 100px;
     float: right;
 }
-#pic1 {
+.img {
+    width: 224px;
+    height: 224px;
+}
+/* #pic1 {
 height: 250px;
 width: 210px;
 padding-bottom: 10px;
@@ -172,4 +176,4 @@ margin-left: 10px;
 margin-right: 10px;
 margin-top: 10px;
 border: solid 3px dimgray;
-}
+} */
